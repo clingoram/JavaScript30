@@ -1,0 +1,27 @@
+:root {
+    --spacing: 20px;
+    --blur: 10px;
+    --base: #ffff00;
+}
+img {
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    background: var(--base);
+}
+.title {
+    color: var(--base);
+}
+/* basic as below*/
+body {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    background: #19295c5d;
+    color: #ffffff;
+}
+.controller {
+    margin-bottom: 50px;
+}
+input {
+    width: 100px;
+}
